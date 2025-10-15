@@ -44,29 +44,29 @@ export const foodItems: FoodItem[] = [
   {
     id: 2,
     name: "弁当",
-    image: "/images/m02.jpg",
+    image: "/images/l03.jpg",
     category: "lunch",
     calories: 650,
     date: "2021.05.21",
-    description: "05.21.Morning"
+    description: "05.21.Lunch"
   },
   {
     id: 3,
     name: "和食ディナー",
-    image: "/images/m01.jpg",
+    image: "/images/d01.jpg",
     category: "dinner",
     calories: 800,
     date: "2021.05.21",
-    description: "05.21.Morning"
+    description: "05.21.Dinner"
   },
   {
     id: 4,
     name: "ラーメン",
-    image: "/images/m01.jpg",
+    image: "/images/l01.jpg",
     category: "snack",
     calories: 550,
     date: "2021.05.21",
-    description: "05.21.Morning"
+    description: "05.21.Snack"
   },
   {
     id: 5,
@@ -80,11 +80,11 @@ export const foodItems: FoodItem[] = [
   {
     id: 6,
     name: "ホットドッグとサラダ",
-    image: "/images/m02.jpg",
+    image: "/images/l02.jpg",
     category: "lunch",
     calories: 480,
     date: "2021.05.20",
-    description: "05.21.Morning"
+    description: "05.21.Lunch"
   },
   {
     id: 7,
@@ -93,16 +93,16 @@ export const foodItems: FoodItem[] = [
     category: "dinner",
     calories: 720,
     date: "2021.05.20",
-    description: "05.21.Morning"
+    description: "05.21.Dinner"
   },
   {
     id: 8,
     name: "デザート",
-    image: "/images/m02.jpg",
+    image: "/images/s01.jpg",
     category: "snack",
     calories: 280,
     date: "2021.05.21",
-    description: "05.21.Morning"
+    description: "05.21.Snack"
   }
 ];
 
