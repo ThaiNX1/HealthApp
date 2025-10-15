@@ -1,6 +1,6 @@
 {
-  "short_name": "React Clean Architecture",
-  "name": "React Clean Architecture Application",
+  "short_name": "Health App",
+  "name": "Health App - React Clean Architecture Application",
   "icons": [
     {
       "src": "favicon.ico",

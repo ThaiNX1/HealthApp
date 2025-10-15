@@ -1,4 +1,4 @@
-# React Clean Architecture Project
+# Health App - React Clean Architecture Project
 
 This project demonstrates a clean architecture implementation using React, TypeScript, and styled-components.
 
