@@ -16,14 +16,14 @@ Contains the business logic and core entities of the application.
 ### 2. Data Layer (`src/data/`)
 Handles data persistence and external API interactions.
 
-- **Repositories** (`repositories/`): Concrete implementations of domain repository interfaces
+- **Repositories** (`repositories/`): Concrete implementations of domain repository interfaces (e.g., `UserRepositoryImpl.ts` with User as an example)
 - **Services** (`services/`): External API services and data sources
 
 ### 3. Presentation Layer (`src/presentation/`)
 Manages the user interface and user interactions.
 
 - **Components** (`components/`): Reusable UI components
-- **Pages** (`pages/`): Full page components
+- **Pages** (`pages/`): Full page components (Top page, my record page, column page)
 - **Hooks** (`hooks/`): Custom React hooks for state management
 - **Contexts** (`contexts/`): React context providers for dependency injection
 
@@ -85,14 +85,14 @@ src/
 
 2. Start the development server:
    ```bash
-   npm start
+   npm run start
    ```
 
 3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Available Scripts
 
-- `npm start`: Runs the app in development mode
+- `npm run start`: Runs the app in development mode
 - `npm test`: Launches the test runner
 - `npm run build`: Builds the app for production
 - `npm run eject`: Ejects from Create React App (one-way operation)
@@ -105,18 +105,6 @@ src/
 - **Styled Components**: CSS-in-JS styling
 - **Axios**: HTTP client for API calls
 
-## Example Usage
-
-The application includes a complete User management feature that demonstrates:
-
-1. **Entity**: `UserEntity` with business logic
-2. **Repository**: Abstract `UserRepository` interface
-3. **Use Cases**: CRUD operations for users
-4. **Data Implementation**: `UserRepositoryImpl` with API integration
-5. **UI Components**: `UserCard`, `UserForm`, `UsersPage`
-6. **Custom Hooks**: `useUsers`, `useCreateUser`, etc.
-7. **Context Provider**: Dependency injection for use cases
-
 ## Benefits of This Architecture
 
 1. **Scalability**: Easy to add new features without affecting existing code
@@ -124,15 +112,3 @@ The application includes a complete User management feature that demonstrates:
 3. **Maintainability**: Clear separation makes code easier to understand and modify
 4. **Flexibility**: Easy to swap implementations (e.g., different data sources)
 5. **Team Development**: Different team members can work on different layers
-
-## Next Steps
-
-To extend this project, you can:
-
-1. Add more entities and use cases
-2. Implement authentication and authorization
-3. Add form validation
-4. Implement error handling and logging
-5. Add unit and integration tests
-6. Implement caching strategies
-7. Add internationalization support
