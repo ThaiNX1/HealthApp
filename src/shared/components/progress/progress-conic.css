@@ -1,0 +1,19 @@
+/* Progress Conic Component Styles */
+
+/* Register the custom property so it can animate in supporting browsers */
+@property --value {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+}
+
+/* Draw the arc with conic-gradient and hollow center via mask */
+.conic-arc {
+    background: conic-gradient(#fff calc(var(--value) * 1turn), transparent 0);
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - var(--thickness)), #000 0);
+    mask: radial-gradient(farthest-side, transparent calc(100% - var(--thickness)), #000 0);
+    transition: --value .6s ease;
+    /* smooth when --value changes */
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}

@@ -1,0 +1,10 @@
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import all style files */
+@import './variables.css';
+@import './global.css';
+@import './components.css';
+@import './responsive.css';
